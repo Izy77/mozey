@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Smart Choice Maintenance</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Icon Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="service-area">Serving Toronto & GTA</div>
+            <div class="top-contacts">
+                <a href="tel:+16478976121"><i class="fas fa-phone"></i> Call Us</a>
+                <a href="https://wa.me/16478976121"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Smart Choice Maintenance">
+                </a>
+            </div>
+
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="contact.html" class="nav-link active">Contact Us</a>
+                <a href="contact.html" class="btn">Get a Free Quote</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-aos="fade-down"><span class="text-highlight">Contact</span> Us</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Get in touch for a free quote or service inquiry.</p>
+            <a href="index.html" class="back-btn" data-aos="fade-up" data-aos-delay="200"><i
+                    class="fas fa-arrow-left"></i> Back to Home</a>
+        </div>
+    </section>
+
+    <!-- Contact Info & Form -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-flex">
+                <!-- Info -->
+                <div class="contact-info-col" data-aos="fade-right">
+                    <h2 class="modern-title">Contact Information</h2>
+
+                    <div class="c-item">
+                        <div class="icon-box">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+16478976121">647-897-6121</a></p>
+                        </div>
+                    </div>
+
+                    <div class="c-item">
+                        <div class="icon-box">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/16478976121">Chat with us on WhatsApp</a></p>
+                        </div>
+                    </div>
+
+                    <div class="c-item">
+                        <div class="icon-box">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@smartchoice.ca">info@smartchoice.ca</a></p>
+                        </div>
+                    </div>
+
+                    <div class="c-item">
+                        <div class="icon-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Toronto & GTA, Ontario</p>
+                        </div>
+                    </div>
+
+                    <div class="c-item">
+                        <div class="icon-box">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                            <p>Saturday: 9:00 AM - 4:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Optional Form -->
+                <div class="contact-form-col" data-aos="fade-left">
+                    <h2 class="modern-title">Send a Message</h2>
+                    <form onsubmit="event.preventDefault(); alert('Message sent! We will contact you shortly.');">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea rows="5" required placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <h3 class="modern-title" data-aos="fade-up">Our Service Area</h3>
+            <!-- Google Map Embed (Toronto) -->
+            <div class="map-container" data-aos="zoom-in" data-aos-delay="100">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.436340478065!2d-79.38318428450198!3d43.65322607912144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1645564855000!5m2!1sen!2sca"
+                    width="100%" height="450"
+                    style="border:0; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" allowfullscreen=""
+                    loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer-modern">
+        <div class="container">
+            <div class="footer-top-grid">
+                <!-- Company Info -->
+                <div class="footer-col-brand">
+                    <img src="assets/images/smart_choice_logo_new.png" alt="Smart Choice Maintenance"
+                        class="footer-logo">
+                    <p class="company-desc">Professional property services for residential and commercial clients in
+                        Toronto & GTA.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-col-contact">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Toronto & GTA</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+16478976121">647-897-6121</a></li>
+                        <li><i class="fas fa-envelope"></i> info@smartchoice.ca</li>
+                    </ul>
+                </div>
+
+                <!-- Hours -->
+                <div class="footer-col-hours">
+                    <h3 class="footer-title">Business Hours</h3>
+                    <ul class="hours-list">
+                        <li>Mon - Fri: 8am - 6pm</li>
+                        <li>Sat: 9am - 4pm</li>
+                        <li>Sun: Closed</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Social & Credits -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-row">
+                    <p>&copy; 2026 Smart Choice Maintenance. All Rights Reserved.</p>
+                    <div class="social-links-footer">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="developer-credit-row">
+                    <p>Website developed by <a href="https://mrzcanada-j5dnp19.gamma.site/" target="_blank"
+                            style="text-decoration: none; color: inherit;"><span style="font-weight: bold;"><span
+                                    style="color: #0056b3;">MRZ</span> CANADA INC.</span></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/16478976121" class="floating-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+
+</html>
